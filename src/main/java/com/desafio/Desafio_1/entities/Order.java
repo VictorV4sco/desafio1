@@ -1,5 +1,8 @@
 package com.desafio.Desafio_1.entities;
 
+import org.springframework.boot.autoconfigure.domain.EntityScan;
+
+@EntityScan
 public class Order {
 
 	private Integer code;
